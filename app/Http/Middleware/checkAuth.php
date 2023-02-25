@@ -18,7 +18,7 @@ class checkAuth
     public function handle(Request $request, Closure $next)
     {
       if ($request->user()) {
-          return redirect()->route('homess');
+          return redirect()->route('homesss');
       }
         return $next($request);
     }
